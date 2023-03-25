@@ -1,0 +1,62 @@
+1. Biến
+- Biến được coi là hộp chứa các dữ liệu
+
+- Biến js đc lưu trong bộ nhớ của browser hay là lưu trong ram của trình duyệt
+
+- Khai báo biến
+  Const: khai báo 1 hằng số và ko thay đổi giá trị nếu cố thay đổi sẽ báo lỗi
+	 không thể gán lại giá trị và cũng không khai báo lại giá trị được
+  let  : không thay đổi giá trị bên ngoài block
+	 có thể gán lại giá nhưng không khai báo lại giá trị được
+  var  : khai báo ở bên ngoài ở mọi phạm vi và có thể thay đổi giá trị
+	có thể gán lại và khai báo lại được
+  + Nếu khai báo bằng biến var thì let và const ko khai bao lại giá trị của biến var
+
+- Quy tắc đặt tiên biến
+  + Phải bắt đầu là chứ cái hoặc dấu gạch dưới ("_"), ko đc bắt đầu bằng số
+  + Tên biến chỉ chứa các chứ cái,số hoặc dấu gạch dưới và không chứ các ký tự đặc biệt
+  + Phải đặt dễ hiểu và mô tả đúng chức năng của biến đó
+  + Biến local lên viết thường, biến global lên viết in hoa để phân biệt 
+  + Không được trùng tên với các từ được định nghĩa sẵn
+
+- các kiểu dữ liệu của biến
+  + Kiểu dữ liệu (data type) là một thuộc tính, nó xác định loại dữ liệu và các thao tác
+    có thể thực hiện với giá trị đó
+  + Khi ta khai báo biến ko cần kiểu dữ liệu của biến đó nó tự động xác định trong khi thực
+    thi chương trình
+  + Một biến có thể chứa nhiều kiểu dữ liệu khác nhau
+  + Các kiểu dữ liệu của biến:
+	1. String: là kiểu dự liệu chuỗi được dùng để lưu trữ và xử lý các giá trị văn bản
+		VD: var name = "Đạt"
+		    var full_name = "Trần " +name+"!" // Trần Đạt!
+	2. Number: là kiểu dữ liệu Số được sử dụng để lưu giá trị số, bao gôm cả số nguyên (integer)
+		và số thực (float).
+		VD: var a = 10;
+		    var b = 40;
+		    var c = a + b; // 50
+	3. Boolean: là kiểu dữ liệu logic, chỉ có 2 giá trị là true hoặc false
+		VD: var x = 5;
+		    var y = 10;
+		    var z = x < y; // true
+	4. Null: là kiểu giá trị không có giá trị nào
+		VD var x = null // ko có giá trị nào trong biến x
+
+	5. Undefined: là kiểu dữ liệu cho biến chưa gán giá trị nào
+		VD var x; // undefined
+	
+	6. Object: là kiểu dữ liệu đại diện cho 1 đối tượng. Đối tượng có thể được định nghĩa
+    		   bởi tập hợp các thuộc tính và phương thức
+		VD: var person = {firstName: "Trần",lastName: "Đạt",age: 23
+				  fullName function(){return this.firstName + " " + lastName}}
+	7. Symbol: là kiểu dữ liệu đại cho các giá trị duy nhất ko thể thay đổi, các ký hiệu
+		   đc sử dụng để xác định các thuộc tính duy nhât của đối tượng
+	   	   VD:	var mySymbol = Symbol();
+			var myObject = {};
+			myObject[mySymbol] = "Hello";
+			console.log(myObject[mySymbol]); //Hello
+- Phạm bị của biến 
+  + Biến cục bộ  : đc khai báo trong 1 hàm và chỉ có thể sử dụng trong phạm vị hàm đó
+  + Biến toàn cục: đc khai báo biên ngoài tất cả các hàm và có thể sử dụng bất kỳ đâu 
+		   2 biến đc khai báo là var hoặc let
+  + Biến đối tượng (object): biến được khai báo biên trong đối tượng và có thể truy cập
+		             thông qua đối tượng đó biến này lưu trữ các thuộc tính của đối tượng
