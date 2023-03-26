@@ -1,0 +1,48 @@
+2. Toán tử
+  - Toán tử số học - Arithmetic Operators
+      Cộng (+):có thể cộng số hoặc cộng chuỗi
+          Vd: 1 + 1    // 2
+              1 + "1"  // "11"
+              "1" + "1"// "11"
+      Trừ (-)
+      Nhân (*)
+      Chia (/): chia lấy phần nguyên
+          Vd: 7/3 // 2
+      Chia (%): chia lấy phần dư
+          Vd: 7/3 // 1
+      Lũy thừa (**)
+      Tăng 1 giá trị (++):
+          vd: 2++ // 3
+      Giảm 1 giá trị (--)
+          Vd: 2-- // 1
+
+  - Toán tử so sánh - Comparison Operators
+      So sánh bằng (==)                : So sánh 2 giá trị có bằng nhau hay không
+      So sánh bằng tuyệt đối (===)     : So sánh cả kiểu dữ và giá trị bằng nhau hay không
+      So sánh khác (!=)                : So sánh 2 giá trị có khác nhau hay không
+      So sánh khác tuyệt đối(!===)     : So sánh cả kiểu dữ và giá trị khác nhau hay không
+      So sánh lớn hơn (>)              : So sánh giá trị thứ nhất lớn hơn giá trị thứ 2 hay không
+      So sánh nhỏ hơn (<)              : So sánh giá trị thứ nhất nhỏ hơn giá trị thứ 2 hay không
+      So sánh lớn hơn hoăc bằng (>=)   : So sánh giá trị thứ nhất lớn hơn hoặc bằng giá trị thứ 2 hay không
+      So sánh nhỏ hơn hoặc bằng (<=)   : So sánh giá trị thứ nhất nhỏ hơn hoặc bằng giá trị thứ 2 hay không
+
+
+    - Toán tử logic - local Operators
+        Toán tử and (&&): trả về true nếu 2 điều kiện là true
+        Toán tử or  (||): trả về true 1 trong 2 điều kiện là true
+        Toán tử phủ định (!): trả về kết quả ngược lại
+
+    - Toán tử gán - Assignment Operators
+        Toán tử gán cơ bản (=): dùng để gán giá trị của một biến hoặc thuộc tính.
+        Toán tử gán phép cộng (+=): dùng để thêm giá trị vào giá trị hiện tại của biến hoặc thuộc tính
+        Toán tử gán phếp trừ (-=): dùng để trừ đi một giá trị từ giá trị hiện tại của biến hoặc thuộc tính.
+        Toán tử gán phép nhân (*=): dùng để nhân giá trị hiện tại của biến hoặc thuộc tính với một giá trị.
+        Toán từ gán phép chia (/=): dùng để chia giá trị hiện tại của biến hoặc thuộc tính cho một giá trị.
+        Toán tử gán phép chia lấy dư (%=): dùng để lấy phần dư của giá trị hiện tại của biến hoặc thuộc tính khi chia cho một giá trị.
+
+    - Toán tử 3 ngôi - Conditional Operators
+        Toán tử 3 ngôi là một toán tử vô cùng hữu ích trong JavaScript, toán tử này giống  như là bản rút gọn của câu lệnh if-else
+            Điều kiện ? giá trị 1 : giá trị 2
+            Nếu điều kiện trước dấu ? trả về true thì sẽ trả về giá trị 1 còn false thì sẽ trả về giá trị 2
+            let a = 1, b = 10;
+            a > b ? "a lớn hơn b" : "a nhỏ hơn b"
