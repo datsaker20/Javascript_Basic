@@ -1,8 +1,0 @@
-4. Array
-  - Mảng (Array) là gì
-      Là 1 kiểu dữ liệu dùng để lưu trữ và quản lý  1 tập hợn giá trị, có thể là các number,
-      string,object hoặc các kiêu dữ liệu khác
-  - Tại sao lại dùng mảng
-      Lưu trữ dữ liệu
-      Truy cập dữ liệu
-      Xử lý dữ liệu
