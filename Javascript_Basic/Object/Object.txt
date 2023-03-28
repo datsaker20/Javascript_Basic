@@ -1,0 +1,19 @@
+5 Đối tượng (Object)
+  Object là gì ?
+    Object trong JS có thể đc hiểu như những đối tượng trong đời thường
+    Trong JS 1 Object là 1 thực thể độc lập với thuộc tính và kiểu dữ liệu
+    Object là 1 tập hợp các cặp Khóa (key) - giá trị (value), tương tự như map
+      + Object là tập hợp các thuộc tính
+      + Thuộc tính là 1 cặp Key - Value chứa tên và giá trị
+      + Tên thuộc tính là 1 giá trị duy nhất có thể ép buộc 1 chuỗi và trỏ đến 1 giá trị
+      + Giá trị thuộc tính có thể là bất kỳ giá trị nào bao gồm các đối tượng khác hoặc hàm được liên kêt với tên Khóa
+
+  VD Điện thoại là 1 đối tượng
+  Có các thuộc tính key và value
+      Key                     value
+  Hãng sản xuất               Redmi
+  Màu sắc                    Xanh ngọc
+  Kích thước                  17 inch
+  Giá tiền                  50000000
+
+  Phương thước trong Object (function) là những hành động của đối tượng
