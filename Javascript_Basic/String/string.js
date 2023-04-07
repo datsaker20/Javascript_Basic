@@ -4,7 +4,7 @@ console.log(str.toLowerCase())// chuyển sang chữ thường
 console.log(str.toUpperCase())// chuyển sang chữ hoa
 console.log(str.trim()) // cắt ký tự 2 khoảng trắng đầu và cuối
 console.log(str.length) // lấy độ dài chuỗi
-console.log(str.substring(5))// lấy chuỗi con
+console.log(str.substring(5))// lấy chuỗi con từ vị trí đc truyền vào
 console.log(str.charAt(4))// lấy ký tự tại vị trí
 console.log(str.replace("a","Hùng"))// tìm và thay thế vị trí đầu tiên 
 console.log(str.split(" "))// tách chuỗi thành mảng 

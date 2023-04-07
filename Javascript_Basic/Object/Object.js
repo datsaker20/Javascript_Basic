@@ -26,7 +26,7 @@ var cat = {};
 var dog = new Object();
 
 // static methods
-var mouse = Object.create({});
+var mouse = Object.create({});// có thể kế thừa 1 object khác bằng cách truyền object cha vao
 
 var person = {
   firstName: "",
