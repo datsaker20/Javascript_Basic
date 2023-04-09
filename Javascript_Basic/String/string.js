@@ -101,3 +101,8 @@ console.log(data1 === data2);
 const input = 1;
 const result = input? true : false;
 console.log(result);
+
+var so = 10;
+var so2 = 17;
+so2.toString()
+console.log(so + so2);

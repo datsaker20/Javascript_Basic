@@ -122,7 +122,9 @@ var obj = {
 }
 var keys= Object.keys(obj);
 for (var k of keys) {
-    console.log(` Key = ${k} value = ${obj[k]}`)
+    console.log(` Key = ${k} value = ${obj.k}`)
     
 }
 //Với đối tượng (object), ta không thể sử dụng for...of trực tiếp bởi vì nó không phải là một đối tượng lặp (iterable).
+
+"use strict"; // chế độ nghiêm khắc bắt buộc phải có từ khóa khai báo biến
