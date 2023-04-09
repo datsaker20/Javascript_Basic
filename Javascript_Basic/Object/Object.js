@@ -63,7 +63,7 @@ console.log(poly1.name);
 // expected output: "Polygon"
 class Square {
   constructor(length) {
-    this.length = length;
+    this.length = length;// this giống với @length trong ruby
   }
 
   get area() {
