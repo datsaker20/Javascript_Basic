@@ -1,4 +1,3 @@
-// Setup
 const contacts = [
   {
     firstName: "Akira",
@@ -37,32 +36,8 @@ function lookUpProfile(name, prop) {
       }
     }
   }
-  return "No such property";
+  return "No such contact";
   // Only change code above this line
 }
 
 console.log(lookUpProfile("Kristian", "lastName"));
-
-
-function randomRange(myMin, myMax) {
-  // Only change code below this line
-  return Math.floor(Math.random()* (myMax - myMin + 1)) + myMin;
-  // Only change code above this line
-}
-console.log(90,10)
-
-
-function rangeOfNumbers(startNum, endNum) {
-  return endNum < startNum
-    ? []
-    : rangeOfNumbers(startNum, endNum - 1).concat(endNum);
-};
-console.log(rangeOfNumbers(1,9))
-
-
-const magic = () =>  new Date();
-
-const myConcat = (arr1, arr2) => arr1.concat(arr2.filter((i) => !arr1.includes(i)));
-
-
-console.log(myConcat([1, 2], [2, 4, 5]));
