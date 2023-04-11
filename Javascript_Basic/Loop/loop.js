@@ -128,3 +128,5 @@ for (var k of keys) {
 //Với đối tượng (object), ta không thể sử dụng for...of trực tiếp bởi vì nó không phải là một đối tượng lặp (iterable).
 
 "use strict"; // chế độ nghiêm khắc bắt buộc phải có từ khóa khai báo biến
+
+

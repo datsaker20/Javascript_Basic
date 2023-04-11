@@ -1,0 +1,18 @@
+function updateRecords(records, id, prop, value) {
+  if (value === '') {
+    // Nếu giá trị là rỗng, xóa thuộc tính prop tương ứng khỏi album
+    delete records[id][prop];
+  } else if (prop !== 'tracks'&& value !== "") {
+    // Nếu prop không phải là 'tracks' và giá trị không rỗng, gán giá trị cho thuộc tính prop của album
+    records[id][prop] = value;
+  } else {
+    // Nếu prop là 'tracks' và giá trị không rỗng, thêm giá trị vào cuối mảng tracks của album. Nếu album chưa có thuộc tính tracks, tạo mảng mới trước tiên
+    if (!records[id].hasOwnProperty('tracks')) {
+      records[id]['tracks'] = [value];
+    } else {
+      records[id]['tracks'].push(value);
+    }
+  }
+  // Luôn trả về đối tượng records hoàn chỉnh
+  return records;
+}
